@@ -1,0 +1,66 @@
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+  .about p {
+    font-size: 18px;
+    padding: 0 0;
+    margin-bottom: 24px;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+  .main {
+    margin-bottom: 60px;
+  }
+  .about {
+    padding: 60px 0 60px;
+  }
+  .case {
+    padding: 60px 0 60px;
+  }
+  .iteam_case_img {
+    width: 100%;
+    padding: 0px 100px;
+  }
+  .contacts {
+    padding: 60px 0 60px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: none;
+    padding: 0 15px;
+  }
+  .case .container {
+    display: block;
+  }
+}
+@media (max-width: 576px) {
+  .iteam_case_img {
+    padding: 0px 30px;
+  }
+  .main {
+    margin-bottom: 30px;
+  }
+  .main_name h1 {
+    font-size: 37px;
+    line-height: normal;
+  }
+  .about p {
+    padding: 0;
+  }
+  .about {
+    padding: 30px 0 30px;
+  }
+  .case {
+    padding: 30px 0 30px;
+  }
+  .contacts {
+    padding: 30px 0 30px;
+  }
+}
+@media (max-width: 320px) {
+}

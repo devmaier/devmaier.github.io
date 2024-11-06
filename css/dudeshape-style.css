@@ -1,0 +1,193 @@
+/* Header
+------------------------------------------------- */
+section.main {
+    padding: 30px 0;
+    background: #F9F6F5;
+}
+.logo {
+    font-weight: 700;
+    font-size: 24px;
+    font-style: italic;
+    display: block;
+    text-align: center;
+    text-decoration: underline;
+}
+.menu_desktop {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+}
+.menu_desktop ul {
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    font-size: 16px;
+}
+.items a {
+    text-decoration: none;
+    margin: 0 10px;
+}
+.items {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+section.product {
+    background-image: url(../img/dudeshape/PSDNukJan.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 95px 0;
+    background-color:#F9F6F5;
+}
+.product_block h1 {
+    font-weight: 500;
+    font-size: 56px;
+
+}
+.product_block p {
+    font-size: 20px;
+    margin: 30px 0;
+}
+.product_block_search {
+    margin-bottom: 60px;
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    max-width: 326px;
+}
+.btn_shop_now {
+    display: block;
+    text-align: center;
+    max-width: 148px;
+    text-decoration: none;
+    background: #402F2C;
+    padding: 16px  32px;
+    color: #fff;
+}
+.btn_shop_now:hover {
+    color: #fff;
+} 
+.product_block_search .box_search {
+    width: 326px;
+    height: 48px;
+}
+.product_block_search .btn_search {
+    width: 32px;
+    height: 32px;
+    background: #402F2C;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section.brends {
+    text-align: center;
+    margin: 130px 0;
+}
+.brand_bg {
+    padding: 40px 0;
+    border: solid #cccccc5e;
+    border-width: 1px 0;
+}
+.our-product_btn {
+    height: 100%;
+    padding: 80px 0px 0;
+    text-align: right;
+}
+.our-product_title h2 {
+    font-size: 56px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.our-product_title  p {
+    font-size: 20px;
+    width: 714px;
+    font-weight: 400;
+}
+.our-product_btn a {
+    font-size: 24px;
+    display: block;
+    font-weight: 500;
+    color: #000;
+}
+.our-product_block {
+    margin-top: 60px;
+    border: 1px solid #685A5230;
+}
+.our-product_block img {
+    margin-bottom: 20px;
+    width: 100%;
+}
+.our-product_block span {
+    font-weight: 500;
+    font-size: 40px;
+    display: block;
+    margin-bottom: 16px;
+    padding-left: 32px;
+}
+.our-product_block  p {
+    font-weight: 400;
+    font-size: 20px;
+    width: 516px;
+    padding-left: 32px;
+    margin-bottom: 42px;
+}
+.our-product_block_btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 32px;
+    padding-bottom: 32px;
+}
+.our-product_block_btn span {
+    font-weight: 500;
+    font-size: 30px;
+    margin: 0;
+    padding-right: 30px;
+}
+.our-product_block_btn a {
+    background: #402F2C;
+    width: 138px;
+    display: block;
+    padding: 23px;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    margin-right: -120px;
+} 
+.our-product_block_btn p {
+    border: 1px solid #ccc;
+    color: #402F2C;
+    font-size: 18px;
+    font-weight: 500;
+    width: 158px;
+    margin: 0;
+    text-align: center;
+    padding: 20px;
+}
+section.quality {
+    background: #FDF8F5;
+    padding: 50px 0;
+    margin: 130px 0;
+}
+.quality_block {
+    text-align: center;
+}
+.quality_block span {
+    font-weight: 700;
+    font-size: 56px;
+    border-bottom: 3px solid #000;
+    margin-bottom: 30px;
+}
+.quality_block p {
+    font-weight: 400;
+    font-size: 24px;
+    margin: 30px 0px 0px 0;
+}
